@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
+    height: auto;
+    display: flex;
+}
+
+nav .logo {
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav .logo h3 {
+    color: #000;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+nav .nav-links {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    margin-left: 20vh;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav .nav-links a:hover {
+    transition: 0.5s ease-out;
+    color:rgb(176, 176, 176);
+}
+
+nav .nav-links .active {
+    text-decoration:line-through;
+    transition: 0.5s ease-out;
+    color:rgb(176, 176, 176);
+}
+
+#menu {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+#container {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#container #start {
+    width: auto;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
+    background: none;
+    font-size: 25px;
+}
+
+#container #start:hover {
+    color: #fff;
+    background: #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#container #play {
+    width: auto;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
+    background: none;
+    font-size: 25px;
+}
+
+#container #play:hover {
+    color: #fff;
+    background: #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#container #hide {
+    width: auto;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
+    background: none;
+    font-size: 25px;
+    display: none;
+}
+
+#container #hide:hover {
+    color: #fff;
+    background: #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#container h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
+    transition: 2s ease-in-out;
+}
+
+#container h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
+    transition: 2s ease-in-out;
+}
+
+#container #hire {
+    width: auto;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
+    background: none;
+    font-size: 25px;
+    transition: 2s ease-out;
+}
+
+#container #hire:hover {
+    color: #fff;
+    background: #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#content {
+    display: none;
+    transition: 2s ease-in-out;
+}
+
+#game {
+    display: none;
+}
+
+#game h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
+    transition: 2s ease-in-out;
+}
+
+#game p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
+    transition: 2s ease-in-out;
+}
+
+#game #input {
+    width: 50vh;
+    height: 6vh;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border: 2px solid #000;;
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
+}
+
+#game #submit {
+    width: auto;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
+    background: none;
+    font-size: 25px;
+    transition: 2s ease-out;
+}
+
+#game #submit:hover {
+    color: #fff;
+    background: #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#game #again {
+    width: auto;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
+    background: none;
+    font-size: 25px;
+    transition: 2s ease-out;
+    display: none;
+}
+
+#game #again:hover {
+    color: #fff;
+    background: #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#game #guesses {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0.5rem 1rem rgb(45, 7, 7);
+    transition: 2s ease-in-out;
+    color: red;
+    font-weight: bolder;
+}
+
+#game #warning {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0.5rem 1rem rgb(45, 7, 7);
+    transition: 2s ease-in-out;
+    color: red;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 900px) {
+    nav .logo h3 {
+        font-size: 20px;
+    }
+
+    nav .nav-links {
+        display: none;
+        margin-top: 120vh;
+        transition: 1s ease-in-out;
+    }
+
+    nav .nav-links a {
+        line-height: 10vh;
+    }
+
+   
+
+    #container #play {
+        margin-top: 5%;
+    }
+
+    #container h1 {
+        font-size: 40px;
+    }
+
+    #container h2 {
+        font-size: 20px;
+    }
+
+    #game #input {
+        width: auto;
+        padding-left: 5vh;
+    }
+
+    #game #submit {
+        margin-top: 5%;
+    }
+
+    #game #again {
+        margin-top: 5%;
+    }
+
+    #game #warning {
+        color: red;
+    }
+
+    #menu {
+        display: flex;
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        transform: translate(350%, -200%);
+    }
+
+    #close {
+        display: none;
+        font-size: 20px;
+        position: absolute;
+        left: 57%;
+        transform: translate(350%, -200%);
+    }
+}
+
+.brand {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.brand img {
+    width: 20em;
+}
